@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" type="text/css" rel="stylesheet">
+    <title>Fomulario</title>
+</head>
+<body>
+    <div class="header">
+        <ul>
+            <a href="index.html"><img src="img/lfp.png"  class="logo" ></a>
+            <li> 
+                <strong><a href="https://www.marca.com/futbol/primera-division/clasificacion.html?intcmp=MENUMIGA&s_kw=clasificacion" target="_blank"> <img class="calif" src="img/microsoft-excel.svg" title="calification" alt="Calification-icon" /></i>Clasificación</a></strong>
+            </li>
+            <li>
+                <strong> <a href="formu.html"><img class="formu" src="img/form.svg" title="formul" alt="formul-icon" /></i>Formulario</a></strong>
+            </li>
+            <li>
+                <strong> <a href="google.html"><img class="google" src="img/ui.svg" title="google"
+                            alt="google-icon" /></i>Google</a></strong>
+            </li>
+        </ul>
+    </div>
+    <div class="square">
+    <fieldset class="formulillo">
+        <legend><b>Registro en TodoFútbolTV</b> </legend>
+        <form action="" method="POST">
+    <br>
+          <label for="name"><strong>Nombre:</strong> </label><br>
+          <input type="text" name="name"><br><br>
+    
+          <label for="email"><strong>Email:</strong> </label><br>
+          <input type="email" name="email"><br><br>
+    
+          <label><strong>Descripción del paquete:</strong> </label><br><br>
+          <textarea name="mensaje" placeholder="Comparte tu opinión">
+          </textarea><br>
+          <fieldset>
+              <legend>Elige la liga</legend>
+              <label>
+                  <input type="radio" name="junio" value="junior"> Española 
+              </label>
+              <label>
+                  <input type="radio" name="semisenior" value="semisenior"> Alemana
+              </label>
+              <label>
+                  <input type="radio" name="senior" value="senior"> Inglesa
+              </label>
+              <label>
+                <input type="radio" name="senior" value="senior"> Francesa
+            </label>
+            <label>
+                <input type="radio" name="senior" value="senior"> Todas
+            </label>
+          </fieldset><br>
+          <fieldset>
+              <label>
+                  <input type="checkbox" name="ok" value="ok"> Acepto la política de la empresa.
+              </label>
+          </fieldset><br>
+          
+            <input name="button" type="button" onclick='alert("Formulario enviado correctamente.")' value="Enviar" />  
+          <br>
+      </form>
+    
+      
+    </fieldset></div>
+    <div class="footer">
+        <p><b>©Guille Vargas 2020</b> </p>
+        </div>
+</body>
+</html>
